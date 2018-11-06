@@ -191,6 +191,66 @@ var loc_strings = {
         "localization-help": "需要帮助吗？",
         "localization-helptext": "想要添加您自己的语言吗？ 只需要提交一份申请 %1."
     },
+	"Srpski": {
+        "author": "Serbian by <a href='https://steamcommunity.com/id/rammbagrobar/'>rammba</a> and <a href='https://steamcommunity.com/id/Romanizat'>romanizat</a>",
+        "locale": "srb",
+        "progress_communityunlocks": "Zajednica je otključala",
+        "progress_bar_title": "Progres: %1%",
+        "progress_locked": "Zaključano",
+        "progress_beetletaur": "Vatreni Svinjaklop",
+        "progress_boarrior": "Veliki Forge Veparatnik",
+        "progress_book_elemental": "Tom prizivanja i spiralnog koplja",
+        "progress_lavaarena_armor_hpextraheavy": "Veliki istrajni oklop",
+        "progress_lavaarena_armor_hpdamager": "Veliki zupčasti oklop",
+        "progress_lavaarena_armor_hprecharger": "Veliki svileni oklop",
+        "progress_lavaarena_armor_hppetmastery": "Veliki šaputajući oklop",
+        "progress_lavaarena_heavyblade": "Kovačeva Oštrica",
+        "progress_lavaarena_firebomb": "Kristalizovana odaja magme",
+        "progress_rhinodrill": "Pesnicarog",
+        "progress_trails": "Veparila",
+        "progress_lastsync": "Poslednji put ažurirano %1",
+        "progress_lastsync_title": "Poslednji put ažurirano %1",
+        "leaderboards-title": "Najbolji timovi",
+        "leaderboards-loading": "Učitavanje još timova...",
+        "leaderboards-noresults": "Nema rezultata.. Pokušajte kasnije",
+        "leaderboards-pos": "%1",
+        "leaderboards-time": "Vreme",
+        "leaderboards-seconds": "s",
+        "leaderboards-deaths": "Broj smrti",
+        "leaderboards-showmore": "Prikaži više",
+        "leaderboards-showless": "Prikaži manje",
+        "date": {
+            "parentLocale": 'en',
+            "months": 'Januara_Februara_Marta_Aprila_Maja_Juna_Jula_Avgusta_Septembra_Oktobra_Novembra_Decembra'.split('_'),
+            "longDateFormat": {
+				LLL: 'D[.]  MMMM  YYYY[. u]  HH:mm'
+				
+            },
+            "relativeTime": {
+                "future": "za %s",
+                "past": "pre %s",
+                "s": 'par sekundi',
+                "ss": '%d sekundi',
+                "m": "jednog minuta",
+                "mm": "%d minuta",
+                "h": "jednog sata",
+                "hh": "%d sati",
+                "d": "jednog dana",
+                "dd": "%d dana",
+                "M": "jednog meseca",
+                "MM": "%d meseci",
+                "y": "jedne godine",
+                "yy": "%d godina"
+            },
+            "ordinal": function(number) {
+                return number + ".";
+            }
+        },
+        "localization-credits": "Zasluge lokalizacija",
+        "localization-help": "Da li želiš da pomogneš?",
+        "localization-helptext": "Želiš li dodati svoj jezik? Podnesi zahtev na %1."
+	},
+}
 }
 
 function LocalizeSetup() {
