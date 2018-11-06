@@ -251,7 +251,6 @@ var loc_strings = {
         "localization-helptext": "Želiš li dodati svoj jezik? Podnesi zahtev na %1."
 	},
 }
-}
 
 function LocalizeSetup() {
     // Add language selector
